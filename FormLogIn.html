@@ -1,14 +1,48 @@
 <!DOCTYPE html>
 <html>
-<head><title>BattleZone</title></head>
+<head>
+   <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet"> 
+<title>BattleZone</title>       
+    </head>
 <body>
+   <button class="btnreg"><a href="FormsRegister.html">Sign up</a></button>
+<button class="btnreg"><a href="FormLogIn.html">Log in</a></button>
+<picture>
+    <center>     <img src="battlezone_logo.png" alt="Logo" width=1366 height=400> </center>
+</picture>
+    <center>
+    <div>
+    <ul>
+        <li> <a href="PageHome.html">home</a></li>
+        <li> <a href="PageAbout.html">about</a></li>
+        <li class="dropdown"> 
+            <a href="PageEvents.html" class="dropbtn" >events</a>
+    
+        
+        <div class="dropdown-content">
+            <a href="EventsLeagueOfLegends.html">League of Legends</a>
+            <a href="EventsHeartStone.html"> Hearthstone</a>
+            <a href="EventsOverwatch.html">Overwatch</a>
+            <a href="EventsPUBG.html">PUBG</a>
+        </div>
+            </li>
+        <li> <a href="PageAccount.html">account</a></li>
+    </ul>
+    </div>
+    </center>
+    
+    <br>
+    <br>
+    <br>
+    <br>
 <h1>Log In</h1>
-<form>
+<form class="regform">
 Username:  <input type="text" name="firstname"/><br>
 <br>
 Password:  <input type="password" name="password"/><br>
 <br>
-<button input type="submit" name="log in">Log In</button><br>    
+    <button class="btnreg" input type="submit" name="log in"><a>Log In</a></button><br>    
 </form>
 </body>
 </html>
