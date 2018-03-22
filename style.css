@@ -167,7 +167,7 @@ zoom
         
  .button{
                
-                background:url(button.png) no-repeat;
+                background:url(img/button.png) no-repeat;
                 cursor:pointer;
                 border:none;
                 width:215px;
@@ -179,7 +179,7 @@ zoom
 
             }
         .button:hover{
-            background: url(button_hover.png) no-repeat;
+            background: url(img/button_hover.png) no-repeat;
         }
       #container{width:100%;}
 
