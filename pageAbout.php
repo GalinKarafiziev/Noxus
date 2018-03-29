@@ -37,21 +37,26 @@
     </div>
         
     <center><div class="divtext3">
-        <p> BattleZone will show you all the gaming events located in Europe. Details, like hour, city, price etc. will be included.</p>
+        <p> BattleZone will show you all the gaming events located all around the World. Details, like hour, city, price etc. will be included.</p>
         
     </div></center>
     
     </div>
     <br>
     <br>
-    <center> <form class="regform">
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    
+<?php 
+    require 'includes/about.php';
+    ?>
+    
+    <center> <form method="post" class="regform">
+   <label for="email">E-mail</label>
+    <input type="text" id="email" name="email" placeholder="Your e-mail..">
          <br>
         <br>
-
-    <label for="lname">E-mail</label>
-    <input type="text" id="email" name="email" placeholder="Your e-mail..">
+ <label for="fname">First Name</label>
+    <input type="text" id="firstname" name="firstname" placeholder="Your name..">
+    
          <br>
         <br>   
      

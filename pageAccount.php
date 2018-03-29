@@ -1,4 +1,10 @@
 <!DOCTYPE html>
+<?php
+session_start();
+if(!isset($_SESSION['name'])){
+   header("Location: formLogIn.php");
+}
+?>
 <html>
 <head>
    <?php
@@ -32,6 +38,6 @@
    <img src="img/angry.png" alt="no" class="aimg">
 <h2 class="nv">No events available yet!</h2>
 
-    
+ <button id="LogOut" class="btnreg" ><a href="formLogOut.php">Log out</a></button>   
 </body>
 </html>
